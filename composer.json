@@ -1,0 +1,13 @@
+{
+    "name": "mentors-match/mentors-match",
+    "description": "returns mentors matches in percents",
+    "require": {
+        "php-di/php-di": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": ["config/constants.php"]
+    }
+}
